@@ -1,7 +1,5 @@
 # CatTrivia
-### Team: Isabella Barnard
 
-### Project Objective:
 This is a fun cat trivia game you can enjoy by yourself or with up to 3 friends! This game works by prompting a question from the server that waits for a response from all of the clients, whether it be you or your friends. Once the server recieves a response, it will wait until the each of the players has answered and can print out the correct answer. If the answer is correct, the server checks the order in which the responses were received, with the first response coming in being the one that is awarded the point. All other players who answered incorrectly or after the first correct response will not be rewarded points. This game is created by Isabella Barnard. This was made as an assignment for CS457. 
 </br>
 
@@ -15,28 +13,11 @@ This is a fun cat trivia game you can enjoy by yourself or with up to 3 friends!
 3. **Play the game:** The server asks a question after everyone has connected. It will then wait for responses from the clients. If the response is incorrect, no points will be awarded. If the response is correct, the first client to send the correct response will receive the points. All other players, even if they got the answer correct, will not be awarded any points for that round. At the end of the game, the player with the most points will be awarded the title of "WINNER!". 
 </br>
 
-### Scope Exclusions:
-At this point, no one will be able to earn partial points for any correct answers after the first correct answer has come in. 
+**Tedhnologies Used:**
+*Python
+*Sockets
 </br>
 
-### Deliverables:
-Working python script and ability to play the game as intended.
-</br>
-
-### Timeline:
-As of right now, I am catching up from a situation I encountered this semester and will update this as soon as possible. 
-
-**Technical Requirements:**
-* Python
-* Sockets
-</br>
-
-**Assumptions**
-Ability to have access to WiFi, as well as connectivity to the lab machines. 
-
-**Roles and Responsibilities**
-All will be fulfilled by me.
-
-**Additional resources:**
-* [Link to Python documentation]
-* [Link to sockets tutorial]
+**Additonal Resources**
+*Python (Will add)
+*Sockets (Will add)
